@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Aula de Angêlo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<script>
+    var loginCadastrado = "Andre";
+    var senhaCadastrada = "senha123"
+
+    var loginInformado = prompt("Informe seu login");
+    var senhaInformada = prompt("Informe sua senha")
+
+    if(loginCadastrado == loginInformado && senhaCadastrada == senhaInformada){
+        alert("Bem vindo ao Sistema Online " + loginInformado)
+    } else {
+        alert("Login inválito. Tente novamente");
+        window.close();
+    }
+</script>
+<header>
+    <nav>
+        <a href="index.html">Pagina Inicial</a>
+        <a href="index2.html">Conteudos</a>
+    </nav>
+</header>
+<body>
+   <h1> Sistema Online </h1>
+   <table border="1">
+    <tr>
+        <td><b>Horario</b></td>
+        <td><b>Segunda</b></td>
+        <td><b>Terça</b></td>
+        <td><b>Quarta</b></td>
+        <td><b>Quinta</b></td>
+        <td><b>Sexta</b></td>
+    </tr>
+    <tr>
+        <td>19h as 20h15</td>
+        <td>Introdução a Programação</td>   
+        <td>Tópicos Essenciais para Programação</td>
+        <td>Tecnologia para Front End</td>     
+        <td>Redes de computadores</td>
+        <td>Logica matematica</td>
+    </tr>
+    <tr>
+        <td>20h30 as 21h45</td>
+        <td>Introdução a Programação</td>   
+        <td>Tópicos Essenciais para Programação</td>
+        <td>Tecnologia para Front End</td> 
+        <td>Arquitetura de computadores</td>
+        <td>Interação Humano Computador</td>
+    </tr>
+    <tr>
+        <td><i>Local</i></td>
+        <td><i>Lab 12</i></td>
+        <td><i>Lab 11</i></td>
+        <td><i>Lab 12</i></td>
+        <td><i>Sala 318</i></td>
+        <td><i>Sala 318</i></td>
+    </tr>
+   </table>
+</body>
+</html>
