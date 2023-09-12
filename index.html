@@ -5,20 +5,6 @@
     <title>Aula de Angêlo</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<script>
-    /*var loginCadastrado = "andreluiz.moreira@hotmail.com";
-    var senhaCadastrada = "senha123"
-
-    var loginInformado = input("Informe seu login");
-    var senhaInformada = input("Informe sua senha")
-
-    if(loginCadastrado == loginInformado && senhaCadastrada == senhaInformada){
-       alert("Bem vindo ao Sistema Online " + loginInformado)
-    } else {
-        alert("Login inválito. Tente novamente");
-        window.close();
-    }
-</script>
 <header>
 <!--<nav>
         <a href="index.html">Pagina Inicial</a>
@@ -30,8 +16,8 @@
         <form class="formLogin">
             <h2>Login</h2>
             <p>Digite  seus dados para acessar.</p>
-            <input class="campo" id="email" type="email" placeholder="Digite o seu email" autofocus="true" />
-            <input class="campo" id="senha" type="password" placeholder="Digite sua senha" />
+            <input class="campo" name="email" id="email" type="text" placeholder="Digite o seu email" autofocus="true" />
+            <input class="campo" name="senha" id="senha" type="password" placeholder="Digite sua senha" />
             <a href="#">Esqueci minha senha</a>
             <input onclick="identificadorCadastro()" class="botao" type="submit" value="Acessar" />
             <p>Está sem acesso?<a href="#">Socilite o novo acesso agora</a></p>
@@ -74,23 +60,6 @@
     </tr>
     </table>  -->
     </div>
-    <script>
-
-        function identificadorCadastro() {
-            var emailCadastrado = "andre";
-            var senhaCadastrada = "123";
-
-            var emailInformado = document.getElementById('email');
-            var senhaInformada = document.getElementById('senha');
-
-            if(emailCadastrado == emailInformado && senhaCadastrada == senhaInformada){
-                alert("Bem vindo ao Sistema Online " + loginInformado)
-            } else {
-                alert("Login inválito. Tente novamente");
-                window.close();
-            }
-        }
-
-    </script>
+  <script src="./script.js"></script>
 </body>
 </html>
